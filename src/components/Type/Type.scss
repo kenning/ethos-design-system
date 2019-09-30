@@ -6,10 +6,13 @@
 // Typefaces
 
 :root {
-  --system-sans-font-stack: -apple-system, BlinkMacSystemFont, Roboto,
-    'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --Theinhardt-font-stack: Theinhardt, var(--system-sans-font-stack);
-  --Cambon-font-stack: Cambon, var(--Theinhardt-font-stack);
+  --system-sans-font-stack: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  --system-serif-font-stack: Georgia, 'Times New Roman', serif;
+  // --Theinhardt-font-stack: Theinhardt, var(--system-sans-font-stack);
+  // --Cambon-font-stack: Cambon, var(--system-serif-font-stack);
+  --Theinhardt-font-stack: sans-serif;
+  --Cambon-font-stack: sans-serif;
 }
 
 .Theinhardt {

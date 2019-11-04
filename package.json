@@ -3,6 +3,7 @@
   "version": "1.1.8-b",
   "description": "Ethos Design System v1",
   "main": "./src/components/index.js",
+  "types": "./src/components/index.d.ts",
   "license": "UNLICENSED",
   "scripts": {
     "build": "yarn compile-css",
@@ -76,6 +77,7 @@
     "sass-loader": "^8.0.0",
     "start-server-and-test": "^1.10.5",
     "style-loader": "^1.0.0",
+    "typescript": "^3.6.4",
     "url-loader": "^2.1.0",
     "webpack": "^4.39.3",
     "webpack-dev-server": "^3.8.0"

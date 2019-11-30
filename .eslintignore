@@ -1,2 +1,3 @@
 /src/libs
+/src/xhr/lib
 **/node_modules
